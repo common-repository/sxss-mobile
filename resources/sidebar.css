@@ -1,0 +1,56 @@
+#mobilemenu {
+    display: none;
+    position: fixed;
+    background: #2e2e2e;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 0;
+    overflow-y: scroll;
+    max-width: 80%;
+    z-index: 999999;
+}
+
+#mobilemenu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#mobilemenu ul li a {
+    padding: 0.6em 4em 0.6em 2em;
+    border-top: 0.1em solid rgba( 255, 255, 255, 0.1);
+    border-bottom: 0.1em solid rgba( 0, 0, 0, 0.5);
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba( 255, 255, 255, 1.0 );
+    display: block;
+}
+
+#mobilemenu ul li ul li a {
+    font-weight: normal;
+    color: rgba( 255, 255, 255, 0.8 );
+}
+#menusearch {
+    margin: 1em 0 1em 0;;
+    padding: 0;
+}
+
+#menusearch input {
+    display: block;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    margin: 0 auto;
+    width: 90%;
+    padding: 0.6em 1em 0.6em 3em;
+    border: 0.1em solid rgba( 0, 0, 0, 0.1 );
+    background: rgba( 0, 0, 0, 0.2 ) url('images/search.png') no-repeat 0.3em 0.3em;
+    background-size: 26px 26px;
+    -webkit-border-radius: 0 0 2px 2px;
+    border-radius: 4px;
+    color: rgba( 255, 255, 255, 0.5 );
+}
